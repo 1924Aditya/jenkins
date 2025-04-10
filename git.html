@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dream Home Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #2e8b57;
+      color: white;
+    }
+
+    .house-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .details {
+      padding: 2rem;
+      text-align: center;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin: 1rem;
+      border-radius: 10px;
+    }
+
+    .details ul {
+      list-style: none;
+      margin: 1rem 0;
+    }
+
+    .details li {
+      margin: 0.5rem 0;
+    }
+
+    button {
+      padding: 0.8rem 1.5rem;
+      background-color: #2e8b57;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #246944;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏡 Dream Villa</h1>
+    <p>Your dream home is just one visit away!</p>
+  </header>
+
+  <section class="house-image">
+    <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02ae" alt="House Image">
+  </section>
+
+  <section class="details">
+    <h2>Modern Luxury Villa</h2>
+    <p>Located in the heart of the city with a peaceful vibe. 4 BHK with pool, garden, and a fantastic view!</p>
+    <ul>
+      <li>✅ 4 Bedrooms</li>
+      <li>✅ Private Pool</li>
+      <li>✅ Smart Home Enabled</li>
+      <li>✅ 24/7 Security</li>
+    </ul>
+    <button onclick="bookVisit()">Book a Visit</button>
+  </section>
+
+  <footer>
+    <p>© 2025 DreamVilla Estates | Call: +91-1234567890</p>
+  </footer>
+
+  <script>
+    function bookVisit() {
+      alert("✅ Your visit has been booked! Our team will contact you soon.");
+    }
+  </script>
+</body>
+</html>
